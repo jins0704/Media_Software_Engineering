@@ -1,0 +1,6 @@
+Name : jinseok
+Age : 26
+Gender : m
+Address : seoul
+Married : false
+Height : 177.0
