@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Triangle extends Shape{
 
-    Polygon polygon;
+    private Polygon polygon;
 
     @Override
     public void draw(Graphics g) {

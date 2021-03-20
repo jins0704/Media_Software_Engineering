@@ -10,63 +10,10 @@ public class ShapeCanvas extends JComponent {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
-        //Point
-        Point position = new Point();
-        Point newPosition = new Point();
-
-        //Circle
-        g.setColor(Color.pink);
-        Circle circle = new Circle();
-        position.setLocation(50,50);
-        circle.setRadius(300);
-        circle.setPosition(position);
-        circle.draw(g);
-
-        //RectOne
-        g.setColor(Color.blue);
-        Rectangle rectOne = new Rectangle();
-        position.move(110,150);
-        rectOne.setWidth(70);
-        rectOne.setHeight(40);
-        rectOne.setPosition(position);
-        rectOne.draw(g);
-
-        //RectTwo
-        Rectangle rectTwo = rectOne;
-        position.move(220,150);
-        rectTwo.move(position);
-        rectTwo.draw(g);
-
-        //Triangle
-        g.setColor(Color.green);
-        Triangle triangle = new Triangle();
-        Polygon p = new Polygon();
-        p.addPoint(200,200);
-        p.addPoint(175,270);
-        p.addPoint(225,270);
-        triangle.setPolygon(p);
-        triangle.draw(g);
-
-        //LineOne
-        g.setColor(Color.red);
-        Line lineOne = new Line();
-        position.move(130,290);
-        newPosition.setLocation(200,320);
-        lineOne.setPosition(position);
-        lineOne.setPositionTwo(newPosition);
-        lineOne.draw(g);
-
-        //LineTwo
-        Line lineTwo = lineOne;
-        position.move(270,290);
-        lineTwo.draw(g);
-
-        shapes.add(circle);
-        shapes.add(rectOne);
-        shapes.add(rectTwo);
-        shapes.add(triangle);
-        shapes.add(lineOne);
-        shapes.add(lineTwo);
+        for(Shape shape: shapes){
+            g.setColor(shape.color);
+            shape.draw(g);
+        }
 
     }
 
@@ -79,8 +26,59 @@ public class ShapeCanvas extends JComponent {
     }
 
     public static void main(String args[]) {
+
+        ShapeCanvas sc = new ShapeCanvas();
+
+        Circle circle = new Circle();
+        Rectangle rectOne = new Rectangle();
+        Rectangle rectTwo = new Rectangle();
+        Triangle triangle = new Triangle();
+        Line lineOne = new Line();
+        Line lineTwo = new Line();
+
+        circle.setRadius(300);
+        circle.setPosition(new Point(50,50));
+        circle.color = Color.pink;
+
+        //RectOne
+        rectOne.setWidth(70);
+        rectOne.setHeight(40);
+        rectOne.setPosition(new Point(110,150));
+        rectOne.color = Color.blue;
+
+        //RectTwo
+        rectTwo.setWidth(70);
+        rectTwo.setHeight(40);
+        rectTwo.setPosition(new Point(220,150));
+        rectTwo.color = Color.blue;
+
+        //Triangle
+        Polygon polygon = new Polygon();
+        polygon.addPoint(200,200);
+        polygon.addPoint(175,270);
+        polygon.addPoint(225,270);
+        triangle.setPolygon(polygon);
+        triangle.color = Color.green;
+
+        //LineOne
+        lineOne.setPosition(new Point(130,290));
+        lineOne.setPositionTwo(new Point(200,320));
+        lineOne.color = Color.red;
+
+        //LineTwo
+        lineTwo.setPosition(new Point(270,290));
+        lineTwo.setPositionTwo(new Point(200,320));
+        lineTwo.color = Color.red;
+
+        sc.shapes.add(circle);
+        sc.shapes.add(rectOne);
+        sc.shapes.add(rectTwo);
+        sc.shapes.add(triangle);
+        sc.shapes.add(lineOne);
+        sc.shapes.add(lineTwo);
+
         JFrame mainFrame = new JFrame("Graphics demo");
-        mainFrame.getContentPane().add(new ShapeCanvas());
+        mainFrame.getContentPane().add(sc);
         mainFrame.pack();
         mainFrame.setVisible(true);
     }
