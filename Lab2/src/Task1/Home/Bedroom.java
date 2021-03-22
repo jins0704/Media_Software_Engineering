@@ -15,4 +15,31 @@ public class Bedroom extends Home {
     public void playMusic() {
         System.out.println("Bedroom calls playMusic()" );
     }
+    public void printName() {
+        System.out.println("class : Bedroom");
+    }
+
+    public void setDoor(Door door) {
+        this.door = door;
+    }
+
+    public void setLight(Light light) {
+        this.light = light;
+    }
+
+    public void setDarknessLevel(int darknessLevel) {
+        this.darknessLevel = darknessLevel;
+    }
+
+    public Door getDoor() {
+        return door;
+    }
+
+    public Light getLight() {
+        return light;
+    }
+
+    public int getDarknessLevel() {
+        return darknessLevel;
+    }
 }

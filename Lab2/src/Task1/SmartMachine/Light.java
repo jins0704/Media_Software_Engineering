@@ -11,7 +11,9 @@ public class Light extends SmartMachine{
     public void lightOff(){
         System.out.println("light Off");
     }
-
+    public void printName() {
+        System.out.println("class : Light");
+    }
     public void setLightOnCheck(boolean lightOnCheck) {
         this.lightOnCheck = lightOnCheck;
     }

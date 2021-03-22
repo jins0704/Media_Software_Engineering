@@ -16,4 +16,30 @@ public class Kichen extends Home {
     public void soundFireAlarm(){
         System.out.println("Kichen calls soundFireAlarm()");
     }
+    public void printName() {
+        System.out.println("class : Kichen");
+    }
+    public void setDoor(Door door) {
+        this.door = door;
+    }
+
+    public void setLight(Light light) {
+        this.light = light;
+    }
+
+    public void setRecipe(String recipe) {
+        this.recipe = recipe;
+    }
+
+    public Door getDoor() {
+        return door;
+    }
+
+    public Light getLight() {
+        return light;
+    }
+
+    public String getRecipe() {
+        return recipe;
+    }
 }

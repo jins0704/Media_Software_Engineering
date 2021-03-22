@@ -8,7 +8,9 @@ public class Vacuum extends SmartMachine{
     public void autoClean(){
         System.out.println("Vacuum clean auto");
     }
-
+    public void printName() {
+        System.out.println("class : Vacuum");
+    }
     public void setColor(String color) {
         this.color = color;
     }

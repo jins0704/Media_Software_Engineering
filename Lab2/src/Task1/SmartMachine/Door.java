@@ -11,7 +11,9 @@ public class Door extends SmartMachine{
     public void close(){
         System.out.println("Door close");
     }
-
+    public void printName() {
+        System.out.println("class : Door");
+    }
     public void setOpenCheck(boolean openCheck) {
         this.openCheck = openCheck;
     }
