@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th ="http://www.thymeLeaf.org">
+
+<head>
+    <title>Task3</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1>Messages:</h1>
+
+<p th:each="message : ${messages}">
+    <span th:text=" 'ID:' +' '+ ${message.id}">Street</span> </br>
+    <span th:text=" 'Author:' +' '+ ${message.author}">City</span> </br>
+    <span th:text=" 'Subject:' +' '+ ${message.subject}">ZIP</span> </br>
+    <span th:text=" 'Body:' +' '+ ${message.messageBody}">State</span> </br>
+</p>
+</body>
+
+</html>
