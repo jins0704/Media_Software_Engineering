@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08e5fe8b-2764-4a8c-a7a8-7bd181b69324" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Task1/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task1/StudentCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task1/StudentIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/ComponentContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/ConcreteContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/LinearLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/TextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/CoinFlipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/GameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task3/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/AjouCarShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/Car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/Car/Hatchback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/Car/SUV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/Car/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/Factory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/Factory/EUHyundaiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task4/Factory/KoreaHyundaiFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetAPiData/DB_Univ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GetAPiData/GetApiData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiking/DB_Univ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiking/GetApiData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiking/mSurroundings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Success_Message_memoming.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/SqlTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1thrzHE77MdOmJwLZVxFUQmZjOz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Application.AjouCarShop">
+    <configuration name="AjouCarShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4.AjouCarShop" />
+      <module name="Lab7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task3.GameTest" />
+      <module name="Lab7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.Main" />
+      <module name="Lab7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task1.Main" />
+      <module name="Lab7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AjouCarShop" />
+        <item itemvalue="Application.GameTest" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08e5fe8b-2764-4a8c-a7a8-7bd181b69324" name="Default Changelist" comment="" />
+      <created>1623232424960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623232424960</updated>
+      <workItem from="1623232426552" duration="9642000" />
+      <workItem from="1623568415339" duration="197000" />
+      <workItem from="1623569001254" duration="11421000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
